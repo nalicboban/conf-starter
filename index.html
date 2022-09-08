@@ -10,7 +10,64 @@
   </head>
   <body>
 
-    
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold fst-italic" href="index.html"><img src="img/logo.png" alt="" width="50"> TravelStar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="putovanja.html">Putovanja</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="dashboard.html">Dashboard</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white " href="detalji.html">Detalji</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero text-white d-flex flex-column justify-content-center align-items-center">
+      <h1 class="fw-bold display-5">Gde zelite da putujete?</h1>
+      <p>Pretrazite nasu veliku ponudu premium putovanja</p>
+      <form class="row gx-3 gy-2 align-items-center container">
+        
+        <div class="col-sm-3">
+          <input type="text" class="form-control form-control-lg"  placeholder="Destinacija">
+        </div>
+
+        <div class="col-sm-3">
+          <select class="form-select form-select-lg" >
+            <option selected>Mesec...</option>
+            <option value="1">Oktobar</option>
+            <option value="2">Novembar</option>
+            <option value="3">Decembar</option>
+          </select>
+        </div>
+        
+        <div class="col-sm-3">
+          <select class="form-select form-select-lg" >
+            <option selected>Sortiraj...</option>
+            <option value="1">Opadajuce</option>
+            <option value="2">Rastuce</option>
+          </select>
+        </div>
+
+        <div class="col-sm-3">
+          <button type="submit" class="btn btn-danger w-100 btn-lg">Pretraga</button>
+        </div>
+      </form>
+    </section>
     
 
     
